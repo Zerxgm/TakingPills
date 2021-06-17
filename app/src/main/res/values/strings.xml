@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TakingPills</string>
+    <string name="add_patient">Добавить пациента</string>
+    <string name="med_kit">Аптечка</string>
+    <string name="during_treatment">В процессе лечения</string>
+    <string name="arсhiv">Архив</string>
+</resources>
