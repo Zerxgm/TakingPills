@@ -6,63 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".AddPatient">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="577dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="358dp" />
+        <TextView
+            android:id="@+id/topic_add_patientov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTopic"
+            android:text="@string/topic_add_patient" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="358dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="323dp" />
+            <TextView
+                android:id="@+id/name_patient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorTopic"
+                android:text="@string/name_patient" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="245dp" />
+            <EditText
+                android:id="@+id/edit_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/hint_name_patient"
+                android:inputType="textPersonName" />
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="206dp" />
+        <TextView
+            android:id="@+id/name_drag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorTopic"
+            android:text="@string/name_drags" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="114dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_image_add_drag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAddDrag"
+                app:srcCompat="@android:drawable/ic_menu_add" />
+
+            <EditText
+                android:id="@+id/edit_add_drag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:text="@string/btn_continue" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,30 @@
     <string name="med_kit">Аптечка</string>
     <string name="during_treatment">В процессе лечения</string>
     <string name="arсhiv">Архив</string>
+
+    <string name="topic_add_patient">Добавление пациента</string>
+    <string name="name_patient">Имя</string>
+    <string name="hint_name_patient">Введите имя пациента</string>
+    <string name="name_drags">Препараты</string>
+
+    <string name="btn_continue">Продолжить</string>
+
+    <string name="topic_add_drags">Добавление препарата</string>
+    <string name="name_drag">Наименование препарата</string>
+    <string name="hint_name_drag">Введите наименование препарата</string>
+    <string name="quantity">Количество</string>
+    <string name="how_match">Сколько</string>
+
+    <string name="type_of_drags">Форма препарата</string>
+    <string-array name="type_drags">
+        <item>пол таблетки</item>
+        <item>таблетка</item>
+        <item>капли</item>
+        <item>пакетик</item>
+        <item>свеча</item>
+        <item>капсула</item>
+        <item>ампула</item>
+    </string-array>
+
+
 </resources>
