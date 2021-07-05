@@ -29,5 +29,12 @@
         <item>ампула</item>
     </string-array>
 
+    <string name="how_many_time_a_day">Сколько раз в день</string>
+    <string name="hint_how_many_time_a_day">Введите сколько раз в день принимать перпарат</string>
+    <string name="how_long_to_take">Как долго принимать</string>
+    <string name="how_long_to_take">Как долго принимать</string>
+    <string name="from_what_day_to_take">С какого дня принимать</string>
+    <string name="btn_ok">Ok</string>
+
 
 </resources>

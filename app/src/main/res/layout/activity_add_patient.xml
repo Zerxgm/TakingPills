@@ -81,6 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="250dp"
+            android:background="@color/colorBtn"
             android:text="@string/btn_continue" />
     </LinearLayout>
 
